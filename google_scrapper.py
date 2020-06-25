@@ -18,7 +18,7 @@ data = driver.find_elements_by_class_name("LC20lb")
 names = [txt.text for txt  in data]
 sleep(0.2)
 for i in range (1 , 30):
-        s = driver.find_element_by_id("pnnext")
+    s = driver.find_element_by_id("pnnext")
     s.click()
     sleep(0.2)
     data = driver.find_elements_by_class_name("LC20lb")
